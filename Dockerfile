@@ -1,11 +1,10 @@
-FROM eclipse-temurin:17-jdk-alpine
-    
+FROM eclipse-temurin:21-jdk-alpine
+
+WORKDIR /app
+
+# Copy the exact artifact name or copy into the folder
+COPY target/Blogging-application-0.0.3.jar app.jar
+
 EXPOSE 8080
- 
-ENV APP_HOME /usr/src/app
 
-COPY target/*.jar $APP_HOME/app.jar
-
-WORKDIR $APP_HOME
-
-CMD ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "app.jar"]
