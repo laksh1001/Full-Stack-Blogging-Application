@@ -344,6 +344,6 @@ https://github.com/laksh1001/Full-Stack-Blogging-Application
 
 ---
 
----
 ### 8. Automated Pipeline Status Email Notifications (Jenkins Email-ext)
 ![Email Notification]
+---
