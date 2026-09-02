@@ -302,5 +302,42 @@ eksctl delete cluster --name <cluster-name> --region <region>
 * **Lakshman** - [GitHub Profile] :- https://github.com/laksh1001/Full-Stack-Blogging-Application
 
 ```
+https://github.com/laksh1001/Full-Stack-Blogging-Application
 
 ```
+
+
+## 📸 Visual Snapshots & Proof of Implementation
+
+### 1. Automated DevSecOps Pipeline (Jenkins & SonarQube Quality Gate)
+![Jenkins Pipeline](snapshots/1.png)
+
+---
+
+### 2. Artifact Repository Governance (Sonatype Nexus)
+![Nexus Repository](snapshots/2.png)
+
+---
+
+### 3. Container Image Registry (Docker Hub)
+![Docker Hub](snapshots/3.png)
+
+---
+
+### 4. Application User Authentication (Route 53 & AWS ALB)
+![Login Interface](snapshots/4.jpg)
+
+---
+
+### 5. Live Production Feed & Multi-User Activity
+![Live Application Dashboard](snapshots/5.jpg)
+
+---
+
+### 6. Prometheus Synthetic Target Health (All Targets UP)
+![Prometheus Targets](snapshots/6.png)
+
+---
+
+### 7. Grafana Real-Time SRE Observability Dashboard
+![Grafana Dashboard](snapshots/7.png)
